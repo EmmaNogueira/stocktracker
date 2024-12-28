@@ -1,0 +1,50 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.dashboard {
+    margin-top: 30px;
+}
+
+.portfolio-summary {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.stock-card {
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.stock-card.etf {
+    border-left: 4px solid #28a745;
+}
+
+.stock-card.stock {
+    border-left: 4px solid #007bff;
+}
+
+.positive-change {
+    color: #28a745;
+}
+
+.negative-change {
+    color: #dc3545;
+}
+
+.chart-container {
+    height: 300px;
+    margin-top: 20px;
+}
+
+.loading {
+    opacity: 0.5;
+    pointer-events: none;
+}
